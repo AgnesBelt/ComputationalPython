@@ -9,11 +9,11 @@ def list_squares(n):
     lis=[]
     for i in range(1, n+1):
         lis.append(i**2)
-    retuns lis
+    return(lis)
 
 print (__name__)
 if __name__ == "__main__": 
   for i in list_squares(4):
-      print i
+      print(i)
 
       
