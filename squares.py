@@ -5,11 +5,15 @@ Created on Mon Oct 15 14:12:33 2018
 @author: beltramo
 """
 
-print(1**2)
-print(2**2)
-print(3**2)
-print(4**2)
+def list_squares(n):
+    lis=[]
+    for i in range(1, n+1):
+        lis.append(i**2)
+    retuns lis
 
+print (__name__)
+if __name__ == "__main__": 
+  for i in list_squares(4):
+      print i
 
-for i in [1,2,3,4]:
-    print(i**2)
+      
